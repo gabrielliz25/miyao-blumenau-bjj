@@ -13,10 +13,14 @@ export const eventConfig = {
   state: "SC",
   stateName: "Santa Catarina",
   country: "BR",
-  pixPaymentUrl: "", // [ADD PIX PAYMENT LINK]
-  cardPaymentUrl: "", // [ADD CREDIT CARD PAYMENT LINK]
+  pixPaymentUrl: "", // PIX is now handled via QR code + copy-paste key
+  pixCopyPasteKey:
+    "00020126580014br.gov.bcb.pix01369520929a-cbc6-4328-929f-492128402fa15204000053039865406200.005802BR5924Bruno Pellegrino Rojtenb6009Sao Paulo62220518daqr8165234667664763047CA4",
+  cardPaymentUrl:
+    "https://loja.infinitepay.io/eventosrojt/smt3476-seminario-joao-miyao",
   instagramUrl: "",
-  whatsappUrl: "",
+  whatsappUrl: "https://wa.me/5547999940464",
+  whatsappGroupText: "Olá! Tenho interesse no seminário do João Miyao para grupos.",
   mapsEmbedUrl: "", // Google Maps embed URL (optional, added later)
 } as const;
 
