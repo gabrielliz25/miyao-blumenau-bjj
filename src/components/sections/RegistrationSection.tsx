@@ -184,14 +184,17 @@ export function RegistrationSection() {
             <p className="text-muted-foreground mt-2 text-sm">
               Tire dúvidas e faça sua reserva para grupos pelo WhatsApp.
             </p>
+            
+            <a href="https://wa.me/5547999940464">
             <button
               type="button"
-              onClick={handleWhatsappGroup}
+              
               className="border-border text-foreground hover:border-primary hover:text-primary mt-4 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-sm border px-5 py-3 text-sm font-medium transition-all duration-200 active:scale-[0.99] sm:w-auto"
             >
               <MessageCircle className="h-5 w-5" aria-hidden="true" />
               clique aqui
             </button>
+            </a>
           </div>
         </Reveal>
 
