@@ -66,7 +66,7 @@ export function SiteHeader() {
           id="mobile-menu"
           className="border-border/60 bg-background border-t px-5 py-4 lg:hidden"
         >
-          <nav aria-label="Navegação мobile" className="flex flex-col">
+          <nav aria-label="Navegação mobile" className="flex flex-col">
             {NAV_LINKS.map((link) => (
               <button
                 key={link.id}
