@@ -15,7 +15,7 @@ export const eventConfig = {
   country: "BR",
   pixPaymentUrl: "", // PIX is now handled via QR code + copy-paste key
   pixCopyPasteKey:
-    "00020126580014br.gov.bcb.pix01369520929a-cbc6-4328-929f-492128402fa15204000053039865406200.005802BR5924Bruno Pellegrino Rojtenb6009Sao Paulo62220518daqr8165234667664763047CA4",
+    "00020126580014br.gov.bcb.pix01369520929a-cbc6-4328-929f-492128402fa15204000053039865406220.005802BR5924Bruno Pellegrino Rojtenb6009Sao Paulo62220518daqr816523468100216304CE38",
   cardPaymentUrl:
     "https://loja.infinitepay.io/eventosrojt/smt3476-seminario-joao-miyao",
   instagramUrl: "",
